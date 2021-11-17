@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#b3cce6, #8cb3d9, #6699cc);
+    overflow: hidden;
+}
+
+
+.game_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+
+.game_wrapper button{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #009900;
+    color: white;
+    border: 2px solid #8cff66;
+    box-shadow: 2px 2px 2px 2px #208000;
+    font-size: 20px;
+    font-family: 'Fuggles', cursive;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.game_wrapper button:hover{
+    background-color:  #009900;    
+}
+
+#game_board{
+    width: 70%;
+    height: 530px;
+    background-color: #6699cc;
+    border: 2px solid #4080bf;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.hidden_circle{
+    display: none;
+}
+
+.hit{
+    display: inline;
+}
+
+
+#game_panel{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#game_panel span {
+    font-family: 'Zen Loop', cursive;
+}
+#hits{
+    width: fit-content;
+    height: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4dffb8;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    visibility: hidden;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#misses{
+    width: fit-content;
+    height: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ff8080;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    visibility: hidden;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#accuracy{
+    display: none;
+    color: white;
+}

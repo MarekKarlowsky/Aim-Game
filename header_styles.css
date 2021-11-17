@@ -1,0 +1,143 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_div{
+    background-color: #9999ff;
+    padding: 10px;
+    color: white;
+    margin: 1px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Zen Loop', cursive;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.right_div{
+    background-color: #9999ff;
+    padding: 10px;
+    color: white;
+    margin: 1px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Zen Loop', cursive;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.left_div h3 span{
+    display: inline-block;
+}
+
+.right_div h3 span{
+    display: inline-block;
+}
+
+.left_div h3 span:hover:nth-child(1){
+    transform: skew(15deg, 15deg);
+    color: #e6ccff;
+}
+
+.left_div h3 span:hover:nth-child(2){
+    transform: skew(15deg);
+    color: #e6ccff;}
+
+.left_div h3 span:hover:nth-child(3){
+    transform: skew(15deg);
+    color: #e6ccff;}
+
+.left_div h3 span:hover:nth-child(4){
+    transform: skew(15deg);
+    color: #e6ccff;}
+
+.left_div h3 span:hover:nth-child(5){
+    transform: skew(15deg);
+    color: #e6ccff;}
+
+.left_div h3 span:hover:nth-child(6){
+    transform: skew(15deg);
+    color: #e6ccff;}
+
+.left_div h3 span:hover:nth-child(7){
+    transform: skew(15deg);
+    color: #e6ccff;}
+
+/* right div effects */ 
+
+.right_div h3 span:hover:nth-child(1){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(2){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(3){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(4){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(5){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(6){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(7){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(8){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(9){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(10){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(11){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(12){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(13){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(14){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
+
+.right_div h3 span:hover:nth-child(15){
+    transform: skew(15deg);
+    color: #e6ccff;
+}
